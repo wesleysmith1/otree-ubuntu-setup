@@ -1,5 +1,8 @@
 # otree-ubuntu-setup
 
+### Note
+Intended for ubuntu version 20.04
+
 ### Install
 ```
 sudo apt-get update
