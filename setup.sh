@@ -11,8 +11,8 @@ source ~/venv/bin/activate
 
 # install database
 sudo apt-get install postgresql -y
-sudo apt-get install libpq-dev python-dev-y
-sudo pip install psycopg2 -y
+sudo apt-get install libpq-dev python-dev -y
+sudo pip install psycopg2
 
 # setup database
 sudo -u postgres psql -c "CREATE DATABASE django_db;"
