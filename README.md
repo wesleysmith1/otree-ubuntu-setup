@@ -38,6 +38,8 @@ echo 'export REDIS_URL=redis://localhost:6379' >> ~/.bashrc
 
 ### install project requirements and reset database
 ```
+git clone YOUR_PROJECT_URL.git
+cd YOUR_PROJECT_URL.git
 pip3 install -r requirements.txt
 otree resetdb
 ```
@@ -57,3 +59,7 @@ sudo -E env "PATH=$PATH" otree prodserver 80
 ### Additional details
 - when starting server append & to run as background process
 - add static ip
+
+### Connecting to server
+Here is a good resource for connecting to access server(putty) and view files(winscp)
+https://support.plesk.com/hc/en-us/articles/12377247603223
