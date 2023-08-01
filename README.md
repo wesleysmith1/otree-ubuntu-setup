@@ -53,7 +53,7 @@ echo 'export OTREE_AUTH_LEVEL=DEMO' >> ~/.bashrc
 
 ### start server
 ```
-sudo -E env "PATH=$PATH" otree prodserver 80
+sudo -E env "PATH=$PATH" otree prodserver 80 &
 ```
 
 ### Additional details
